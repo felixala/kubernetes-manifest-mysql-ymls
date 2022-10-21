@@ -75,7 +75,7 @@ $ kubectl get pods
 $ kubectl exec -it <pod-name-above-command> bash
 ```
 
-# Connect to database
+## Connect to database
 ```
 $ mysql -h localhost -u root -p
 ```
@@ -91,17 +91,17 @@ $ show databases;
 $ use weshopify-app;
 ```
 
-# create a table
+## create a table
 ```
 $ create table emp(emp_id int, emp_name varchar(50));
 ```
 
-# display all tables
+## display all tables
 ```
 $ show tables;
 ```
 
-# insert record
+## insert record
 ```
 $ insert into emp values(101, 'Raju');
 $ insert into emp values(102, 'Rani');
