@@ -1,10 +1,10 @@
-=======================================
 Deploying MySQL Database in K8S Cluster
-=======================================
 
-# Create Config Map
+## Create Config Map
+```
 $ kubectl apply -f <config-manifest-yml>
 $ kubectl apply -f 1_weshopify-db-configmap.yml
+```
 
 # Create Secret
 $ kubectl apply -f <secret-manifest-yml>
